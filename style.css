@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.profile-image {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-top: 10px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea, button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
